@@ -1,6 +1,6 @@
 import getIndexNameForContentType from './getIndexNameForContentType';
 
-export const HOST = 'wincent.com';
+export const HOST = 'www.stevium.com';
 export const SCHEME = 'https://';
 
 export const REPO =
@@ -15,7 +15,7 @@ export const LAST_INDEXED_HASH = 'last-indexed-hash';
 /**
  * Can manually force cache invalidation by bumping this.
  */
-export const REDIS_CACHE_VERSION = '6';
+export const REDIS_CACHE_VERSION = '1';
 
 export const REDIS_KEY_PREFIX = 'masochist';
 
