@@ -5,6 +5,12 @@ tags: blog site masochist stevium
 
 I'm Miloš, and  [mstevanovic.net](https://mstevanovic.net) is a web representation of my curriculum vitae, showing a summarized overview of my career as a software engineer. [stevium.com](https://stevium.com/), on the other hand, will be a more comprehensive and technical manifestation of my activity on the web, intended to serve as a home for a [blog](/blog), [projects](/pages/projects) and a [wiki](/wiki) of mine.
 
+## Source
+
+- [Stevium repo on GitHub](https://github.com/stevium/stevium):
+    - [main branch](https://github.com/stevium/stevium/tree/main) (code)
+    - [content branch](https://github.com/stevium/stevium/tree/content) (content)
+
 ## Technical Stack
 
 Infrastructure of [stevium.com](/) is largely based on a "tech stack for over-engineers" indicatively named [masochist](https://github.com/wincent/masochist), and is mainly comprised of:
