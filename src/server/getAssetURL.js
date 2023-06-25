@@ -1,10 +1,7 @@
 import hashString from './hashString';
 
 const CDN_HOSTS = [
-  'd3ogqji57fkqg9.cloudfront.net',
-  'd19zmavcjzsuj4.cloudfront.net',
-  'djfaa0bz60cz6.cloudfront.net',
-  'd2tdr4rkgjw2gh.cloudfront.net',
+  'www.stevium.com',
 ];
 
 /**
