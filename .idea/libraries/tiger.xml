@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="tiger">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/public/a/products/synergy-classic/download/tiger/Synergy3.2.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/public/a/products/synergy-classic/download/tiger/Synergy3.2.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/public/a/products/synergy-classic/download/tiger/Synergy3.4.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/public/a/products/synergy-classic/download/tiger/Synergy3.4.zip!/" />
+      <root url="jar://$PROJECT_DIR$/public/a/products/synergy-classic/download/tiger/Synergy3.2.1b.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

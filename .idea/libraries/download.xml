@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="download">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/public/a/products/winhex/download/WinHex1.0b2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/public/a/products/winhex/download/WinHex1.0b2LocalizationPack.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

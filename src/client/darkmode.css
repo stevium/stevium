@@ -1,0 +1,365 @@
+/*
+                        _______
+                       /       \
+                      .==.    .==.
+                     ((  ))==((  ))
+                    / "=="    "=="\
+                   /____|| || ||___\
+       ________     ____    ________  ___    ___
+       |  ___  \   /    \   |  ___  \ |  |  /  /
+       |  |  \  \ /  /\  \  |  |  \  \|  |_/  /
+       |  |   )  /  /__\  \ |  |__/  /|  ___  \
+       |  |__/  /  ______  \|  ____  \|  |  \  \
+_______|_______/__/ ____ \__\__|___\__\__|___\__\____
+|  ___  \ |  ____/ /    \   |  ___  \ |  ____|  ___  \
+|  |  \  \|  |___ /  /\  \  |  |  \  \|  |___|  |  \  \
+|  |__/  /|  ____/  /__\  \ |  |   )  |  ____|  |__/  /
+|  ____  \|  |__/  ______  \|  |__/  /|  |___|  ____  \
+|__|   \__\____/__/      \__\_______/ |______|__|   \__\
+                https://darkreader.org
+*/
+
+/*! Dark reader generated CSS | Licensed under MIT https://github.com/darkreader/darkreader/blob/main/LICENSE */
+
+/* User-Agent Style */
+html {
+    background-color: #181a1b !important;
+}
+
+html {
+    color-scheme: dark !important;
+}
+
+html, body {
+    background-color: #181a1b;
+}
+
+html, body {
+    border-color: #736b5e;
+    color: #e8e6e3;
+}
+
+a {
+    color: #3391ff;
+}
+
+table {
+    border-color: #545b5e;
+}
+
+::placeholder {
+    color: #b2aba1;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #404400 !important;
+    color: #e8e6e3 !important;
+}
+
+::selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+
+::-moz-selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+
+/* Invert Style */
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, #bit-notification-bar-iframe, ::-webkit-calendar-picker-indicator {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}
+
+/* Variables Style */
+:root {
+    --darkreader-neutral-background: #131516;
+    --darkreader-neutral-text: #d8d4cf;
+    --darkreader-selection-background: #004daa;
+    --darkreader-selection-text: #e8e6e3;
+}
+
+/* Modified CSS */
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline-color: initial;
+}
+
+abbr[title] {
+    border-bottom-color: initial;
+}
+
+mark {
+    background-image: initial;
+    background-color: rgb(153, 153, 0);
+    color: rgb(232, 230, 227);
+}
+
+img {
+    border-color: initial;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+}
+
+fieldset {
+    border-color: rgb(66, 71, 74);
+}
+
+legend {
+    border-color: initial;
+}
+
+:root {
+    --darkreader-text--color-accent: #ff2c78;
+    --darkreader-text--color-accent-hover: #ff2c78;
+    --darkreader-border--color-separator: #383d40;
+}
+
+body {
+    color: rgb(211, 207, 201);
+}
+
+a {
+    color: var(--darkreader-text--color-accent);
+    text-decoration-color: rgba(232, 230, 227, 0.1);
+}
+
+a:hover {
+    color: var(--darkreader-text--color-accent-hover);
+    text-decoration-color: inherit;
+}
+
+input[type="search"], input[type="text"] {
+    background-color: rgb(24, 26, 27);
+    border-color: rgb(61, 66, 69);
+    box-shadow: none;
+}
+
+input[type="search"]:focus, input[type="text"]:focus {
+    border-color: rgb(11, 122, 156);
+    outline-color: initial;
+}
+
+ul {
+    list-style-image: initial;
+}
+
+ol {
+    list-style-image: initial;
+}
+
+code {
+    background-image: initial;
+    background-color: rgb(32, 35, 36);
+}
+
+td,
+th {
+    border-bottom: 1px solid var(--darkreader-border--color-separator);
+}
+
+hr {
+    border-top: 1px solid var(--darkreader-border--color-separator);
+}
+
+.metadata {
+    color: rgb(157, 149, 136);
+}
+
+.tags::before {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0zODQgNDQ4cTAtNTMtMzcuNS05MC41dC05MC41LTM3LjUtOTAuNSAzNy41LTM3LjUgOTAuNSAzNy41IDkwLjUgOTAuNSAzNy41IDkwLjUtMzcuNSAzNy41LTkwLjV6bTEwNjcgNTc2cTAgNTMtMzcgOTBsLTQ5MSA0OTJxLTM5IDM3LTkxIDM3LTUzIDAtOTAtMzdsLTcxNS03MTZxLTM4LTM3LTY0LjUtMTAxdC0yNi41LTExN3YtNDE2cTAtNTIgMzgtOTB0OTAtMzhoNDE2cTUzIDAgMTE3IDI2LjV0MTAyIDY0LjVsNzE1IDcxNHEzNyAzOSAzNyA5MXptMzg0IDBxMCA1My0zNyA5MGwtNDkxIDQ5MnEtMzkgMzctOTEgMzctMzYgMC01OS0xNHQtNTMtNDVsNDcwLTQ3MHEzNy0zNyAzNy05MCAwLTUyLTM3LTkxbC03MTUtNzE0cS0zOC0zOC0xMDItNjQuNXQtMTE3LTI2LjVoMjI0cTUzIDAgMTE3IDI2LjV0MTAyIDY0LjVsNzE1IDcxNHEzNyAzOSAzNyA5MXoiIGZpbGw9InJnYigyMTEsIDIwNywgMjAxKSIvPjwvc3ZnPgo=");
+    fill: rgb(255, 26, 26);
+}
+
+.when {
+    color: rgb(157, 149, 136);
+}
+
+.when::before {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xOTIgMTY2NGgyODh2LTI4OGgtMjg4djI4OHptMzUyIDBoMzIwdi0yODhoLTMyMHYyODh6bS0zNTItMzUyaDI4OHYtMzIwaC0yODh2MzIwem0zNTIgMGgzMjB2LTMyMGgtMzIwdjMyMHptLTM1Mi0zODRoMjg4di0yODhoLTI4OHYyODh6bTczNiA3MzZoMzIwdi0yODhoLTMyMHYyODh6bS0zODQtNzM2aDMyMHYtMjg4aC0zMjB2Mjg4em03NjggNzM2aDI4OHYtMjg4aC0yODh2Mjg4em0tMzg0LTM1MmgzMjB2LTMyMGgtMzIwdjMyMHptLTM1Mi04NjR2LTI4OHEwLTEzLTkuNS0yMi41dC0yMi41LTkuNWgtNjRxLTEzIDAtMjIuNSA5LjV0LTkuNSAyMi41djI4OHEwIDEzIDkuNSAyMi41dDIyLjUgOS41aDY0cTEzIDAgMjIuNS05LjV0OS41LTIyLjV6bTczNiA4NjRoMjg4di0zMjBoLTI4OHYzMjB6bS0zODQtMzg0aDMyMHYtMjg4aC0zMjB2Mjg4em0zODQgMGgyODh2LTI4OGgtMjg4djI4OHptMzItNDgwdi0yODhxMC0xMy05LjUtMjIuNXQtMjIuNS05LjVoLTY0cS0xMyAwLTIyLjUgOS41dC05LjUgMjIuNXYyODhxMCAxMyA5LjUgMjIuNXQyMi41IDkuNWg2NHExMyAwIDIyLjUtOS41dDkuNS0yMi41em0zODQtNjR2MTI4MHEwIDUyLTM4IDkwdC05MCAzOGgtMTQwOHEtNTIgMC05MC0zOHQtMzgtOTB2LTEyODBxMC01MiAzOC05MHQ5MC0zOGgxMjh2LTk2cTAtNjYgNDctMTEzdDExMy00N2g2NHE2NiAwIDExMyA0N3Q0NyAxMTN2OTZoMzg0di05NnEwLTY2IDQ3LTExM3QxMTMtNDdoNjRxNjYgMCAxMTMgNDd0NDcgMTEzdjk2aDEyOHE1MiAwIDkwIDM4dDM4IDkweiIgZmlsbD0iI2JiYiIvPjwvc3ZnPgo=");
+}
+
+.when-link {
+    text-decoration-color: initial;
+}
+
+.when-link,
+.when-link:hover {
+    color: inherit;
+}
+
+footer {
+    background-image: initial;
+    background-color: rgb(28, 30, 31);
+}
+
+footer ul {
+    list-style-image: initial;
+}
+
+nav {
+    background-color: rgb(15, 16, 17);
+    border-bottom-color: rgb(48, 52, 54);
+}
+
+nav li:first-child a {
+    border-bottom-color: rgb(123, 114, 101);
+    color: rgb(221, 218, 214);
+}
+
+a.nav-link {
+    color: rgb(200, 195, 188);
+    text-decoration-color: initial;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    background-color: rgb(13, 14, 14);
+    color: rgb(232, 230, 227);
+}
+
+.nav-toggle-wrapper {
+    border-bottom-color: rgb(123, 114, 101);
+    border-left-color: rgb(123, 114, 101);
+}
+
+.nav-toggle-wrapper:focus,
+.nav-toggle-wrapper:hover {
+    background-color: rgb(13, 14, 14);
+}
+
+.nav-toggle {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xMzk1IDg2NHEwIDEzLTEwIDIzbC00NjYgNDY2cS0xMCAxMC0yMyAxMHQtMjMtMTBsLTQ2Ni00NjZxLTEwLTEwLTEwLTIzdDEwLTIzbDUwLTUwcTEwLTEwIDIzLTEwdDIzIDEwbDM5MyAzOTMgMzkzLTM5M3ExMC0xMCAyMy0xMHQyMyAxMGw1MCA1MHExMCAxMCAxMCAyM3ptMC0zODRxMCAxMy0xMCAyM2wtNDY2IDQ2NnEtMTAgMTAtMjMgMTB0LTIzLTEwbC00NjYtNDY2cS0xMC0xMC0xMC0yM3QxMC0yM2w1MC01MHExMC0xMCAyMy0xMHQyMyAxMGwzOTMgMzkzIDM5My0zOTNxMTAtMTAgMjMtMTB0MjMgMTBsNTAgNTBxMTAgMTAgMTAgMjN6IiBmaWxsPSIjZWVlIi8+PC9zdmc+Cg==");
+    color: transparent;
+}
+
+@media (min-width: 550px) {
+    nav li:first-child a {
+        border-color: initial;
+    }
+
+    a.nav-link:focus,
+    a.nav-link:hover {
+        background-color: inherit;
+    }
+}
+
+h1 a {
+    text-decoration-color: initial;
+}
+
+.external::after {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNDA4IDkyOHYzMjBxMCAxMTktODQuNSAyMDMuNXQtMjAzLjUgODQuNWgtODMycS0xMTkgMC0yMDMuNS04NC41dC04NC41LTIwMy41di04MzJxMC0xMTkgODQuNS0yMDMuNXQyMDMuNS04NC41aDcwNHExNCAwIDIzIDl0OSAyM3Y2NHEwIDE0LTkgMjN0LTIzIDloLTcwNHEtNjYgMC0xMTMgNDd0LTQ3IDExM3Y4MzJxMCA2NiA0NyAxMTN0MTEzIDQ3aDgzMnE2NiAwIDExMy00N3Q0Ny0xMTN2LTMyMHEwLTE0IDktMjN0MjMtOWg2NHExNCAwIDIzIDl0OSAyM3ptMzg0LTg2NHY1MTJxMCAyNi0xOSA0NXQtNDUgMTktNDUtMTlsLTE3Ni0xNzYtNjUyIDY1MnEtMTAgMTAtMjMgMTB0LTIzLTEwbC0xMTQtMTE0cS0xMC0xMC0xMC0yM3QxMC0yM2w2NTItNjUyLTE3Ni0xNzZxLTE5LTE5LTE5LTQ1dDE5LTQ1IDQ1LTE5aDUxMnEyNiAwIDQ1IDE5dDE5IDQ1eiIgZmlsbD0icmdiKDIxMSwgMjA3LCAyMDEpIi8+PC9zdmc+Cg==");
+}
+
+/* Override Style */
+.vimvixen-hint {
+    background-color: #7b5300 !important;
+    border-color: #d8b013 !important;
+    color: #f3e8c8 !important;
+}
+
+#vimvixen-console-frame {
+    color-scheme: light !important
+}
+
+::placeholder {
+    opacity: 0.5 !important;
+}
+
+#edge-translate-panel-body,
+.MuiTypography-body1,
+.nfe-quote-text {
+    color: var(--darkreader-neutral-text) !important;
+}
+
+gr-main-header {
+    background-color: #0f3a48 !important;
+}
+
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+
+.tou-75mvi {
+    background-color: #032029 !important;
+}
+
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: #0a0a0a !important;
+}
+
+.tou-uknfeu {
+    background-color: #231603 !important;
+}
+
+.tou-6i3zyv {
+    background-color: #19576c !important;
+}
+
+div.mermaid-viewer-control-panel .btn {
+    fill: var(--darkreader-neutral-text);
+    background-color: var(--darkreader-neutral-background);
+}
+
+svg g rect.er {
+    fill: var(--darkreader-neutral-background) !important;
+}
+
+svg g rect.er.entityBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+
+svg g rect.er.attributeBoxOdd {
+    fill: var(--darkreader-neutral-background) !important;
+}
+
+svg g rect.er.attributeBoxEven {
+    fill-opacity: 0.8 !important;
+    fill: var(--darkreader-selection-background);
+}
+
+svg rect.er.relationshipLabelBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+
+svg g g.nodes rect, svg g g.nodes polygon {
+    fill: var(--darkreader-neutral-background) !important;
+}
+
+svg g rect.task {
+    fill: var(--darkreader-selection-background) !important;
+}
+
+svg line.messageLine0, svg line.messageLine1 {
+    stroke: var(--darkreader-neutral-text) !important;
+}
+
+div.mermaid .actor {
+    fill: var(--darkreader-neutral-background) !important;
+}
+
+embed[type="application/pdf"][src="about:blank"] {
+    filter: invert(100%) contrast(90%);
+}

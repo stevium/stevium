@@ -25,59 +25,55 @@ export default class Footer extends React.Component {
         <div className="container">
           <div className="row">
             <div className="four columns">
-              <h6>Site</h6>
+              <h6>Sitemap</h6>
               <ul>
-                <FooterLink target="/pages/about" text="About" />
                 <FooterLink target="/blog" text="Blog" />
+                <FooterLink target="/pages/projects" text="Projects" />
                 <FooterLink target="/wiki" text="Wiki" />
-                <FooterLink target="/snippets" text="Snippets" />
                 <FooterLink target="/tags" text="Tags" />
                 <FooterLink target="/search" text="Search" />
               </ul>
             </div>
             <div className="four columns">
-              <h6>External</h6>
+              <h6>Elsewhere</h6>
               <ul>
                 <StaticFooterLink
-                  target="https://github.com/wincent"
+                  target="https://github.com/stevium"
                   text="GitHub"
                 />
                 <StaticFooterLink
-                  target="https://twitter.com/wincent"
+                    target="https://www.linkedin.com/in/stevium"
+                    text="LinkedIn"
+                />
+                <StaticFooterLink
+                  target="https://twitter.com/stevuim"
                   text="Twitter"
                 />
                 <StaticFooterLink
-                  target="https://www.youtube.com/c/GregHurrell"
-                  text="YouTube"
-                />
-                <StaticFooterLink
-                  target="https://facebook.com/glh"
+                  target="https://facebook.com/stevium"
                   text="Facebook"
                 />
                 <StaticFooterLink
-                  target="https://www.linkedin.com/in/greghurrell"
-                  text="LinkedIn"
+                  target="https://www.instagram.com/stevium"
+                  text="Instagram"
                 />
               </ul>
             </div>
             <div className="four columns">
-              <h6>Colophon</h6>
+              <h6>Credits</h6>
               <p>
-                {'Made by '}
-                <a href="mailto:greg@hurrell.net">Greg Hurrell</a>
-                {' using '}
+                {'Made with ♡ using '}
                 <a href="https://facebook.github.io/react/">React</a>
-                {', '}
-                <a href="https://facebook.github.io/relay/">Relay</a>
-                {' and '}
-                <a href="http://graphql.org/">GraphQL</a>
-                {' (with help from '}
+                {', and the help of '}
                 <a href="https://git-scm.com/">Git</a>
                 {', '}
                 <a href="http://redis.io/">Redis</a>
                 {' and '}
-                <a href="https://neovim.io/">Neovim</a>
-                {').'}
+                <a href="https://www.spacemacs.org/">Spacemacs</a>
+                {'.'}
+              </p>
+              <p>
+                Inspired by <a href="https://github.com/wincent/masochist">Masochist</a>.
               </p>
               {/* TODO link to /pages/legal here */}
             </div>

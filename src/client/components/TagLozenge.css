@@ -2,7 +2,7 @@
 .lozenge:active,
 .lozenge:hover,
 .lozenge:visited {
-  background: #F1F1F1;
+  background: rgb(32, 35, 36);
   border-radius: 4px;
   border: 1px solid var(--color-separator);
   color: inherit;

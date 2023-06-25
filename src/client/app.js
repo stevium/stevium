@@ -32,6 +32,7 @@ import createRouter from '../common/createRouter';
 import getRequestBody from '../common/getRequestBody';
 import App from './components/App';
 import HTTPError from './components/HTTPError';
+import './darkmode.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom';

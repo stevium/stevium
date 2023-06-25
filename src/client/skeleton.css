@@ -32,7 +32,7 @@
 :root {
   --color-accent: #1480a2;
   --color-accent-hover: #0fa0ce;
-  --color-separator: #e1e1e1;
+  --color-separator: #383d40;
 }
 
 /* Grid
@@ -289,10 +289,12 @@ hr {
   a {
     color: var(--color-accent);
     text-decoration-color: rgba(0, 0, 0, .1);
+    text-decoration: none;
   }
   a:hover {
     color: #4ff4ff;
     text-decoration-color: #4ff4ff;
+    text-decoration: underline;
   }
   body {
     background-color: #222;

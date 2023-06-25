@@ -74,10 +74,10 @@ export default class Nav extends React.Component {
     );
     return (
       <nav className={cx({'nav-open': this.state.isOpen})}>
-        <ul>
+        <ul className="navigation">
           <li>
             <Link className="nav-link" to="/">
-              Wincent
+              stevium
             </Link>
             <div className="nav-toggle-wrapper">
               <div className="nav-toggle" onClick={this._handleToggle}>
@@ -85,11 +85,12 @@ export default class Nav extends React.Component {
               </div>
             </div>
           </li>
-          <NavLink target="/blog" text="Blog" active={active} />
-          <NavLink target="/wiki" text="Wiki" active={active} />
-          <NavLink target="/snippets" text="Snippets" active={active} />
-          <NavLink target="/tags" text="Tags" active={active} />
-          <NavLink target="/search" text="Search" active={active} />
+          <div className="spacer"></div>
+          <NavLink target="/blog" text="blog" active={active} /> -
+          <NavLink target="/pages/projects" text="projects" active={active} /> -
+          <NavLink target="/wiki" text="wiki" active={active} /> -
+          <NavLink target="/tags" text="tags" active={active} /> -
+          <NavLink target="/search" text="search" active={active} />
         </ul>
       </nav>
     );

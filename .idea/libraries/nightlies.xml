@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="nightlies">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/public/a/products/synergy-classic/download/nightlies/Synergy3.5a3+(9848c4f).zip!/" />
+      <root url="jar://$PROJECT_DIR$/public/a/products/synergy-classic/download/nightlies/Synergy3.5a2+(7ae6b07).zip!/" />
+      <root url="jar://$PROJECT_DIR$/public/a/products/synergy-classic/download/nightlies/Synergy3.5a4(4e616e0).zip!/" />
+      <root url="jar://$PROJECT_DIR$/public/a/products/synergy-classic/download/nightlies/Synergy3.5a4(7ce4a27).zip!/" />
+      <root url="jar://$PROJECT_DIR$/public/a/products/synergy-classic/download/nightlies/Synergy3.5a4(ffaa428).zip!/" />
+      <root url="jar://$PROJECT_DIR$/public/a/products/synergy-classic/download/nightlies/Synergy3.5a2+(c7eb0af).zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

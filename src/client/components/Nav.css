@@ -115,4 +115,15 @@ nav li {
   .nav-toggle-wrapper {
     display: none;
   }
+
+  nav:not(.nav-open) .spacer {
+    flex: 1;
+  }
+
+  nav:not(.nav-open) .navigation {
+    margin: auto;
+    max-width: 980px;
+    align-items: center;
+    display: flex;
+  }
 }

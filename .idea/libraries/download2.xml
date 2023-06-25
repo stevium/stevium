@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="download2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/public/a/products/wincent-strings-util/download/wincent-strings-util-2.0.pkg.zip!/" />
+      <root url="jar://$PROJECT_DIR$/public/a/products/wincent-strings-util/download/wincent-strings-util-2.0.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/public/a/products/wincent-strings-util/download/wincent-strings-util-1.2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/public/a/products/wincent-strings-util/download/wincent-strings-util-1.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/public/a/products/wincent-strings-util/download/wincent-strings-util-1.0b.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

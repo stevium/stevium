@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="download3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/public/a/products/login-tool/download/login-tool-1.0.zip!/" />
+      <root url="jar://$PROJECT_DIR$/public/a/products/login-tool/download/login-tool-2.0.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
