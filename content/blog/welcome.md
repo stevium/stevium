@@ -7,7 +7,7 @@ I'm Miloš, and  [mstevanovic.net](https://mstevanovic.net) is a web representat
 
 ## Technical Stack
 
-Infrastructure of [stevium.com](/) is largely based on a "tech stack for over-engineers" indicatively named [masochist](https://github.com/wincent/masochist), and will be mainly comprised of:
+Infrastructure of [stevium.com](/) is largely based on a "tech stack for over-engineers" indicatively named [masochist](https://github.com/wincent/masochist), and is mainly comprised of:
 
 - [React](https://react.dev/) - Declarative, component-oriented view layer.
 - [Relay](https://relay.dev/) - Declarative data-management.
