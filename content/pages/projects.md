@@ -3,7 +3,16 @@ title: Projects
 tags: projects pages rizziko phaser viruscrunch vsnerdx iceterm tmk intellimacs copyq cordova ironsource
 ---
 
-# Active Side Projects
+# Projects
+
+The following is a list of projects I've created, contributed and maintained.
+
+- [Actively Maintained](#active)
+- [Work at Rizziko](#rizziko)
+- [Contributed Projects](#contributed)
+- [Inactive/Archived Projects](#inactive)
+
+# <a name="active">Actively Maintained</a>
 - [Rizziko LTD](www.rizziko.com) - UK Founded sole proprietorship company
     - Building Social Gaming and Networking platform 
     - Technologies used: AWS, Lambda, CloudFormation, EC2, S3, Redis, SNS, Api Gateway, Serverless, WebSockets, Swift, Kotlin
@@ -22,7 +31,7 @@ Technologies used: Java, Java Native Interface, Kotlin, C++ and JetBrains SDK
     - [Plugin page](https://plugins.jetbrains.com/plugin/13014-iceterm)
     - [Demo video](https://twitter.com/stevium/status/1284037647787274247) 
 
-# Work At Rizziko
+# <a name="rizziko">Work At Rizziko</a>
 
 - [cordova-plugin-ironsource-ads](https://github.com/rizziko/cordova-plugin-ironsource-ads) -  Cordova plugin for IronSource 
 - [capacitor-apple-sign-in](https://github.com/rizziko/capacitor-apple-sign-in) -  Sign in with Apple Support 
@@ -35,7 +44,7 @@ Technologies used: Java, Java Native Interface, Kotlin, C++ and JetBrains SDK
 - [rizziko-tools](https://github.com/rizziko/rizziko-tools) - Scripts and tools for automated integration
 - [rizziko-mini-games](https://github.com/rizziko/rizziko-mini-games) - Various arcade and social games
 
-# Contributed projects
+# <a name="contributed">Contributed projects</a>
 
 - [tmk_keyboard](https://github.com/stevium/tmk_keyboard) - Keyboard firmwares for Atmel AVR and Cortex-M 
 - [socket.io](https://github.com/stevium/socket.io) - Realtime application framework (Node.JS server) 
@@ -45,6 +54,6 @@ Technologies used: Java, Java Native Interface, Kotlin, C++ and JetBrains SDK
 - [copyq-commands](https://github.com/stevium/copyq-commands) - Useful commands for CopyQ clipboard manager. 
 - [subtitle-translate](https://github.com/stevium/subtitle-translate) - Subtitle translator for LinkedIn, Youtube, etc
  
-# Inactive Projects
+# <a name="inactive">Inactive Projects</a>
 - [evermode](https://github.com/stevium/evermode) - UML editor for drawing class diagrams 
 - [wsl-dotfiles](https://github.com/stevium/wsl-dotfiles) - Ubuntu wsl dotfiles and settings 
