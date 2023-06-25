@@ -3,14 +3,12 @@ title: Projects
 tags: projects pages rizziko phaser viruscrunch vsnerdx iceterm tmk intellimacs copyq cordova ironsource
 ---
 
-# Projects
-
-The following is a list of projects I've created, contributed and maintained.
+The following is a list of projects I've created, contributed and maintained, grouped by activity or type of contribution.
 
 - [Actively Maintained](#active)
-- [Work at Rizziko](#rizziko)
-- [Contributed Projects](#contributed)
-- [Inactive/Archived Projects](#inactive)
+- [Gaming Related](#rizziko)
+- [Often Contributed](#contributed)
+- [Inactive or Archived Projects](#inactive)
 
 # <a name="active">Actively Maintained</a>
 - [Rizziko LTD](www.rizziko.com) - UK Founded sole proprietorship company
