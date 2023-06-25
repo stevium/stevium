@@ -3,7 +3,7 @@ title: Hi there!
 tags: blog site masochist stevium
 ---
 
-I'm Miloš, and  [mstevanovic.net](https://www.mstevanovic.net) is a web representation of my curriculum vitae, showing a summarized overview of my career as a software engineer. [stevium.com](https://stevium.com/), on the other hand, will be a more comprehensive and technical manifestation of my activity on the web, intended to serve as a home for a [blog](/blog), [projects](/pages/projects) and a [wiki](/wiki) of mine.
+I'm Miloš, and  [mstevanovic.net](https://www.mstevanovic.net) is a web representation of my curriculum vitae, showing a summarized overview of my career as a software engineer. [stevium.com](https://stevium.com/), on the other hand, is a more comprehensive and technical manifestation of my activity on the web, intended to serve as a home for a [blog](/blog), [projects](/pages/projects) and a [wiki](/wiki) of mine.
 
 ### Technical stack
 
