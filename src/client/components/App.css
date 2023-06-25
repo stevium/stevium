@@ -139,3 +139,8 @@ input:disabled {
   /* TODO: something nicer here; may want animation */
   opacity: .5;
 }
+
+.readability {
+  margin: 0 auto;
+  max-width: 600px;
+}

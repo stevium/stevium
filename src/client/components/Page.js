@@ -11,7 +11,7 @@ class Page extends React.Component {
     const page = this.props.data;
     return (
       // may want to URL encode here too? page.url
-      <article>
+      <article className="readability">
         <h1>
           <Link to={page.url}>{page.title ?? 'Untitled'}</Link>
         </h1>
