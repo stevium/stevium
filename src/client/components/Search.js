@@ -131,7 +131,7 @@ class Search extends React.Component {
               onChange={(event) =>
                 this.setState({q: event.currentTarget.value})
               }
-              placeholder="Search wincent.com"
+              placeholder="Search stevium.com"
               type="search"
               ref={(input) => {
                 this._searchInput = input;

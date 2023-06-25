@@ -34,6 +34,8 @@ function getActiveRoutePrefix(path) {
   return '/blog';
 }
 
+const Separator = () => <span className="separator">|</span>;
+
 export default class Nav extends React.Component {
   static contextTypes = {
     router: PropTypes.object,
@@ -86,10 +88,10 @@ export default class Nav extends React.Component {
             </div>
           </li>
           <div className="spacer"></div>
-          <NavLink target="/blog" text="blog" active={active} /><span className="separator">-</span>
-          <NavLink target="/pages/projects" text="projects" active={active} /><span className="separator">-</span>
-          <NavLink target="/wiki" text="wiki" active={active} /><span className="separator">-</span>
-          <NavLink target="/tags" text="tags" active={active} /><span className="separator">-</span>
+          <NavLink target="/blog" text="blog" active={active} /><Separator/>
+          <NavLink target="/pages/projects" text="projects" active={active} /><Separator/>
+          <NavLink target="/wiki" text="wiki" active={active} /><Separator/>
+          <NavLink target="/tags" text="tags" active={active} /><Separator/>
           <NavLink target="/search" text="search" active={active} />
         </ul>
       </nav>
