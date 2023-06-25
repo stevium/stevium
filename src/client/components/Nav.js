@@ -11,7 +11,7 @@ if (inBrowser) {
 
 const NavLink = ({target, text, active}) => {
   const classNames = cx({
-    active: active === target,
+    active: active.startsWith(target),
     'nav-link': true,
   });
 
@@ -25,9 +25,9 @@ const NavLink = ({target, text, active}) => {
 };
 
 function getActiveRoutePrefix(path) {
-  const match = path && path.match(/^(\/\w+)\b/);
+  const match = path && path.match(/^(\/\w+)+\b/);
   if (match) {
-    return match[1];
+    return match[0];
   }
 
   // Must be at /, which is the same as /blog.
