@@ -11,7 +11,7 @@ The following is a list of projects I've created, contributed and maintained, gr
 - [Inactive or Archived Projects](#inactive)
 
 # <a name="active">Actively Maintained</a>
-- [Rizziko LTD](www.rizziko.com) - UK Founded sole proprietorship company
+- [Rizziko LTD](https://www.rizziko.com) - UK Founded sole proprietorship company
     - Building Social Gaming and Networking platform 
     - Technologies used: AWS, Lambda, CloudFormation, EC2, S3, Redis, SNS, Api Gateway, Serverless, WebSockets, Swift, Kotlin
 
