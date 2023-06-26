@@ -101,7 +101,7 @@ function getMarkdownRenderer(baseLevel) {
     const href = token.attrGet('href');
     if (
       href.charAt(0) !== '/' &&
-      !href.match(/^https?:\/\/wincent\.com(\/|$)/i)
+      !href.match(/^https?:\/\/stevium\.com(\/|$)/i)
     ) {
       token.attrJoin('class', 'external');
     }
