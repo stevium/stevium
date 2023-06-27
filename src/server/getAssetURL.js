@@ -1,7 +1,7 @@
 import hashString from './hashString';
 
 const CDN_HOSTS = [
-  'www.stevium.com',
+  'stevium.com',
 ];
 
 /**
