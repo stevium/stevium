@@ -3,7 +3,7 @@ tags: dbms wiki
 cache_breaker: 1
 ---
 
-[ACID](/wiki/acid) In order to maintain consistency in a database before and after [transaction](/wiki/transaction), certain properties are followed. These are called [ACID](/wiki/acid) properties.
+In order to maintain consistency in a database before and after [transaction](/wiki/transaction), certain properties are followed. These are called [ACID](/wiki/acid) properties.
 
 
 * **A - Atomicity**
