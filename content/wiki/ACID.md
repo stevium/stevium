@@ -9,10 +9,10 @@ In order to maintain consistency in a database before and after [transaction](/w
 * **A - Atomicity**
   > The entire transaction takes place at once or doesn't happen at all.
 * **C - Consistency**
-  > The database must be consistent before and after the transaction
+  > The database must be consistent before and after the transaction.
 * **I - Isolation**
   > Multiple Transactions occur independently without interference.
-* **I - Durability**
+* **D - Durability**
   > The changes of a successful transaction occurs even if the system failure occurs.
 
 ## See also
